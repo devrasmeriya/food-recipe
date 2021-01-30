@@ -70,8 +70,8 @@ export default function SearchAppBar() {
   const classes = useStyles();
   const [search, setSearch] = useState("apple");
   const [Recipes, setRecipes] = useState([]);
-  const APP_ID = "78bcfc39";
-  const APP_KEY = "bfa47eddf37512ed628dd4169a3354fa";
+  const APP_ID = "**************";
+  const APP_KEY = "*****************";
   useEffect(() => {
     getRecipes();
   }, []);
